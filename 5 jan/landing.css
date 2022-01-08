@@ -1,0 +1,43 @@
+
+h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(238, 6, 6);
+  font-size: 250%;
+}
+h2{
+    color: rgb(118, 13, 209);
+    font-size: 200%;
+    font-weight: bold;
+
+}
+#resume{
+    font-size: 150%;
+    color: rgb(214, 125, 16);
+    font-weight: bold;
+
+}
+#img1{
+    height: 250%;
+    width: 100%;
+
+}
+#img2{
+    height: 250%;
+    width: 100%;
+    margin-top: 0%;
+
+}
+#para{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(17, 187, 159);
+    font-size: 200%;
+    
+
+}
+#utube{
+    font-size: 200%;
+    font-style: normal;
+    color: rgb(7, 92, 212);
+
+
+}
