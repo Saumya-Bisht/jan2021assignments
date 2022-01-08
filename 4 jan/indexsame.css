@@ -1,0 +1,38 @@
+/* div p {
+  background-color: chartreuse;
+} */
+
+/* div > p {
+  background-color: chartreuse;
+} */
+
+/* div + p {
+  background-color: chartreuse;
+} */
+
+/* div ~ p {
+  background-color: chartreuse;
+} */
+
+/* #p-3 {
+  background-color: cornflowerblue;
+} */
+
+/* .four {
+  background-color: aqua;
+}
+.four > .p-3,
+.p-3 ~ .h-4 {
+  background-color: brown;
+} */
+
+/* .four h4 {
+  background-color: coral;
+} */
+
+.parent {
+  color: blue;
+}
+a {
+  text-decoration: none;
+}
