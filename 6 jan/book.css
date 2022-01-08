@@ -1,0 +1,36 @@
+.chap{
+    text-align: center;
+}
+section{
+    border:2px solid rgb(97, 64, 64);
+    border-top: 2px solid rgb(95, 77, 95);
+    border-bottom: 2px solid rgb(35, 97, 40);
+    margin: 8% 8% 0% 8%;
+        
+    
+}
+#paragraph{
+    display:inline-block;
+    margin-top: 100px;
+    overflow: hidden;
+}
+body{
+    border: 2px solid black;
+}
+
+#para{
+    display: inline-block;
+
+}
+#para::first-letter{
+    font-size: 40px;
+}
+h3{
+    margin: 0px;
+    text-align: center;
+    padding-bottom:9%;
+    
+}
+#firstpara~p{
+    margin: 0px;
+}
