@@ -1,0 +1,91 @@
+<html> 
+<head> 
+    <link href="calculator.css" rel="stylesheet">
+    <link href="00.png" rel="icon">
+    <div class="image" style="background-image: url('photo-1579546929662-711aa81148cf.jpg');">
+
+	<script> 
+		//function that display value 
+		function disp(val) 
+		{ 
+			document.getElementById("result").value+=val 
+		} 
+		
+		//function that evaluates the digit and return result 
+		function solve() 
+		{ 
+			var x = document.getElementById("result").value 
+			var y = eval(x) 
+			document.getElementById("result").value = y 
+		} 
+		
+		//function that clear the display 
+		function clr() 
+		{ 
+			document.getElementById("result").value = "" 
+		} 
+	</script> 
+	
+</head> 
+<!-- create table -->
+<body> 
+    <div class="container">
+	 <div class = title >
+        Saumya's calculator
+     </div>
+	<table> 
+		<tr> 
+            <td colspan="3"><input type="text" id="result"/></td> 
+			<!-- clr() function will call clr to clear all value -->
+			<td><input type="button" value="clr" onclick="clr()"/> </td> 
+		</tr> 
+		<tr> 
+			<!-- disp("1") will call function disp to display value -->
+			<td><input type="button" value="1" onclick="disp('1')"/> </td> 
+			<td><input type="button" value="2" onclick="disp('2')"/> </td> 
+			<td><input type="button" value="3" onclick="disp('3')"/> </td> 
+			<td><input type="button" value="+" onclick="disp('+')"/> </td> 
+		</tr> 
+		<tr> 
+			<td><input type="button" value="4" onclick="disp('4')"/> </td> 
+			<td><input type="button" value="5" onclick="disp('5')"/> </td> 
+			<td><input type="button" value="6" onclick="disp('6')"/> </td> 
+			<td><input type="button" value="-" onclick="disp('-')"/> </td> 
+		</tr> 
+		<tr> 
+			<td><input type="button" value="7" onclick="disp('7')"/> </td> 
+			<td><input type="button" value="8" onclick="disp('8')"/> </td> 
+			<td><input type="button" value="9" onclick="disp('9')"/> </td> 
+			<td><input type="button" value="/" onclick="disp('/')"/> </td> 
+		</tr> 
+		<tr> 
+			<td><input type="button" value="." onclick="disp('.')"/> </td> 
+			<td><input type="button" value="0" onclick="disp('0')"/> </td> 
+			<!-- for solving-->
+			<td><input type="button" value="=" onclick="solve()"/> </td> 
+			<td><input type="button" value="*" onclick="disp('*')"/> </td> 
+		</tr> 
+    </table> 
+    <style>
+        table{
+            width: 350px;
+            background-color: teal;
+            
+        }
+        input[type="button"] 
+            { 
+            
+            background-color:white; 
+            color: black; 
+            width: 100%;
+            height:100px;
+            font-size: x-large;
+			font-weight: bolder;
+			font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+        
+    </style>
+
+    </div>
+</body> 
+</html> 
