@@ -1,0 +1,52 @@
+* {
+  box-sizing:border-box;
+  margin: 0px;
+}
+body {
+  background-color: #5aaaaa;
+  margin: auto;
+  margin-top: 40px;
+}
+
+#button {
+
+  margin: auto;
+  border: 1px solid transparent;
+  background-color: #8095dd;
+  color: #e7e2e2;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 20px;
+
+}
+
+#button:hover {
+  border: 2px solid #0db653;
+  background-color: #8a6464;
+  color: #1f1e44;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  box-sizing:border-box;
+  
+
+}
+.table {
+  margin: auto;
+  border: 5px rgb(110, 57, 18)
+  font-size: 17px;
+  padding: 10px;
+  bor
+  
+}
+.td {
+  border-bottom:2px solid #cac70a;
+  padding: 10px;
+}
+.country {
+  color: #f11fb2;
+  font-size: 20px;
+}
+.name {
+  color: #04374b;
+}
